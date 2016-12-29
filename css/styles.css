@@ -1,0 +1,69 @@
+
+h1 {
+	margin-left: 10px;
+	font-family: "Arial", sans-serif;
+	color: #2a2b2c;
+}
+p {
+	margin: 10px 0px 0px 10px;
+	font-size: 20px;
+	text-align: justify;
+}
+.container {
+	margin: auto;
+}
+.crop-img {
+	max-width: 250px;
+	max-height: 100%;
+	margin-bottom: 10px;
+	display: block;
+}
+.large {
+	border: 2px solid transparent;
+}
+.big-img {
+	width: 99%;
+	margin: auto;
+}
+.control {
+	width: 12%;
+	margin: auto;
+	border: 3px solid transparent;
+}
+.button {
+	border-radius: 5px;
+	outline: none;
+	width: 46%;
+	margin: auto;
+	display: inline-block;
+}
+
+
+/* change button style when mouse moved on it */
+.button:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+/* add a pressed effect on click */
+.button:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 419px ) and (max-width: 603px) {
+	.control {
+		width: 15%;
+	}
+}
+
+/********** Super Extra small devices only **********/
+@media (max-width: 418px) {
+	.control {
+		width: 23%;
+	}
+}
+
+
